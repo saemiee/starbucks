@@ -265,7 +265,7 @@ header .badges .badge {
   cursor: pointer;
 }
 
-/* FOOTER */
+/*FOOTER*/
 footer {
   background-color: #272727;
   border-top: 1px solid #333;
@@ -289,17 +289,17 @@ footer .menu li::before {
   top: 0;
   bottom: 0;
   right: -1px;
-  margin: auto; 
+  margin: auto;
 }
 footer .menu li:last-child::before {
   display: none;
 }
 footer .menu li a {
-  color: #ccc;
+  display: block;
+  color: #CCC;
   font-size: 12px;
   font-weight: 700;
   padding: 15px;
-  display: block;
 }
 footer .menu li a.green {
   color: #669900;
@@ -314,7 +314,7 @@ footer .btn-group .btn {
   margin-right: 10px;
 }
 footer .btn-group .btn:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 footer .info {
   margin-top: 30px;
